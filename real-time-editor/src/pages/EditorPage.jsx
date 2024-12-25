@@ -16,7 +16,7 @@ const EditorPage = () => {
                 <div className="asideInner">
                     <div className="logo">
                         <img className="logoImage"
-                            src=""
+                            src="/png.png"
                             alt="" />
                     </div>
                     <div>

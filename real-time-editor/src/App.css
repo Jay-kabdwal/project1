@@ -59,13 +59,15 @@ footer a{
   transition: all 0.3s ease-in-out;
 }
 
-.joinBtn{
+.joinBtn , .leaveBtn{
   background: #E84393;
   width: 100px;
   margin-left: auto;
+  font-weight: bold;
 }
 
-.joinBtn:hover{
+.joinBtn:hover ,
+.leaveBtn:hover{
   background: #5e183a;
 }
 
@@ -107,11 +109,39 @@ footer a{
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-
 }
 
 .client{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 1px solid #fff;
+
+}
+
+.logoImage{
+  height: 60px;
+
+}
+
+.leaveBtn{
+  margin-top: 20px;
+  background: #755c5c;
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
